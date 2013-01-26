@@ -29,7 +29,7 @@ namespace Garelic.MVC
             message.Append("Date=");
             message.Append(timeStamp);
 
-            System.Diagnostics.Debug.WriteLine(message.ToString());
+            //System.Diagnostics.Debug.WriteLine(message.ToString());
 
             base.OnActionExecuting(filterContext);
         }
@@ -57,7 +57,7 @@ namespace Garelic.MVC
             message.Append("Date=");
             message.Append(timeStamp);
 
-            System.Diagnostics.Debug.WriteLine(message.ToString());
+            //System.Diagnostics.Debug.WriteLine(message.ToString());
 
             base.OnActionExecuted(filterContext);
         }
