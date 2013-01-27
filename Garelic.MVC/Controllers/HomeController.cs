@@ -11,10 +11,7 @@ namespace Garelic.MVC.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
-
             System.Threading.Thread.Sleep(5000); // wait 5 sec.
-
             return View();
         }
 
