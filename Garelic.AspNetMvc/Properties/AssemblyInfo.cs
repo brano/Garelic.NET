@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyDescription("Garelic.NET usage in ASP.NET MVC project")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Garelic.NET")]
+[assembly: AssemblyProduct("Garelic.AspNetMvc")]
 [assembly: AssemblyCopyright("Copyright © Brano Lukac 2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
