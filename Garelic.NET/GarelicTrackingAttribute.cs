@@ -2,7 +2,7 @@
 using System.Text;
 using System.Web.Mvc;
 
-namespace Garelic.MVC
+namespace Garelic.NET
 {
     public class GarelicTrackingAttribute : ActionFilterAttribute, IActionFilter
     {
@@ -19,7 +19,7 @@ namespace Garelic.MVC
             message.Append(controllerName + "|");
             message.Append("Action=");
             message.Append(actionName + "|");
-            
+
             if (!string.IsNullOrEmpty(routeId))
             {
                 message.Append("Route=");

@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Garelic.NET;
 
-namespace Garelic.MVC.Controllers
+namespace Garelic.AspNetMvc.Controllers
 {
     [GarelicTrackingAttribute]
     public class HomeController : Controller

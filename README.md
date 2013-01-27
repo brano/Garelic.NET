@@ -1,2 +1,2 @@
-Garelic.MVC
+Garelic.NET
 ===========

@@ -5,7 +5,7 @@ using System.Globalization;
 using System.Web.Mvc;
 using System.Web.Security;
 
-namespace Garelic.MVC.Models
+namespace Garelic.AspNetMvc.Models
 {
 
     public class ChangePasswordModel

@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using Garelic.MVC.Models;
+using Garelic.AspNetMvc.Models;
 
-namespace Garelic.MVC.Controllers
+namespace Garelic.AspNetMvc.Controllers
 {
     public class AccountController : Controller
     {
